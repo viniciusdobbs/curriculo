@@ -1,0 +1,42 @@
+h1,h2,h3,p.cabe{font-style: italic}
+
+a {color: inherit;}
+
+body{background-color: #FAFCF4}
+
+#content {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+    color: #CBD8BA;
+}
+
+#background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 41%;
+    background-color: #343B46;
+}
+
+.cabe{
+    border: 3px solid;
+    border-radius: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-color: #84A79A;
+}
+
+.forma,.obj,.contato,.conhecimento{
+    text-align: left;
+    padding-bottom: 15px;
+    border: 3px solid;
+    border-radius: 50px;
+    background-color: #225D6D;
+    border-color: #84A79A;
+}
