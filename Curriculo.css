@@ -1,34 +1,27 @@
 h1,h2,h3,p.cabe{font-style: italic}
-
 a {color: inherit;}
-
 body{background-color: #FAFCF4}
-
 #content {
     position: relative;
     z-index: 2;
     padding: 30px;
-    text-align: center;
     font-weight: bold;
     font-family: Arial;
     font-size: 16px;
     color: #CBD8BA;
+    text-align: center;
 }
-
 #background{
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 41%;
+    height: 28%;
     background-color: #343B46;
 }
-
 .cabe{
     border: 3px solid;
     border-radius: 100px;
-    padding-top: 3px;
-    padding-bottom: 3px;
     border-color: #84A79A;
 }
 
@@ -39,4 +32,16 @@ body{background-color: #FAFCF4}
     border-radius: 50px;
     background-color: #225D6D;
     border-color: #84A79A;
+}
+#cabe {
+    display: flex;
+}
+#foto {
+    text-align: center;
+    padding: 1px;  
+    flex: 20%;
+}
+#nome {
+    flex: 80%;
+    padding: 1px;
 }
